@@ -45,10 +45,11 @@
 
 > 💡 **ضع صورة واجهة اللعبة هنا:** قم بسحب وإسقاط صورة الواجهة الرئيسية داخل هذا المربع في GitHub.
 
+<div align="center">
+
 | الواجهة الرئيسية للعبة |
-| :--
-<!-- Failed to upload "Annotation 2026-08-23 103930.png" -->-: |
-| <!-- Drag and drop your main UI screenshot here --> |
+| :---: |
+| <img src="MathGame.png" alt="Math Game UI" width="700"> |
 
 </div>
 
