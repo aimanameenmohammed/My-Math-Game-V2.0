@@ -47,7 +47,7 @@
 
 | الواجهة الرئيسية للعبة |
 | :--
--: |
+<!-- Failed to upload "Annotation 2026-08-23 103930.png" -->-: |
 | <!-- Drag and drop your main UI screenshot here --> |
 
 </div>
