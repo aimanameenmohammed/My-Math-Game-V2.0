@@ -8,45 +8,42 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE.txt)
 
 <p align="center">
-  <b>لعبة تحدي الرياضيات العصرية والذكية المخصصة لتعزيز المهارات الحسابية بأسلوب ممتع وتصميم تفاعلي جذاب يناسب جميع الأعمار.</b>
+  <b>A modern and interactive math challenge game designed to boost mental arithmetic skills with an engaging, user-friendly UI for all ages.</b>
 </p>
 
-[📌 نظرة عامة](#-نظرة-عامة) •
-[✨ المميزات الرئيسية](#-المميزات-الرئيسية) •
-[📸 لقطات من الشاشة](#-لقطات-من-الشاشة) •
-[🛠️ المعمارية والهندسة](#️-المعمارية-والهندسة) •
-[🚀 طريقة التشغيل](#-طريقة-التشغيل) •
-[📞 التواصل والتطوير](#-التواصل-والتطوير)
+[📌 Overview](#-overview) •
+[✨ Key Features](#-key-features) •
+[📸 Screenshots](#-screenshots) •
+[🛠️ Architecture & Design](#️-architecture--design) •
+[🚀 Getting Started](#-getting-started) •
+[📞 Contact & Connect](#-contact--connect)
 
 ---
 
 </div>
 
-## 📌 نظرة عامة
+## 📌 Overview
 
-مشروع **Math Genius Challenge** هو إعادة تطوير شاملة وتطبيق عصري للعبة الرياضيات السابقة التي بُنيت بـ ++C. تم نقل اللعبة إلى بيئة `#C` و `WinForms` للارتقاء بتجربة المستخدم (UX)، حيث تجمع بين البساطة وسهولة التحكم والأداء السلس لتقديم تجربة تعليمية وتنافسية ممتازة للأطفال والكبار على حد سواء.
-
----
-
-## ✨ المميزات الرئيسية
-
-* 🎯 **نظام اختيار دقيق (Single-Selection Logic):** استخدام RadioButtons مخصصة بنمط Buttons لضمان اختيار إجابة واحدة فقط بمرونة وبدون أخطاء.
-* ⏱️ **مؤقت التحدي (Per-Question Timer):** إضافة عامل الوقت بالثواني لكل سؤال لزيادة الحماس وقياس سرعة البديهة.
-* 🎨 **تصميم عصري ورسومات مخصصة (Custom Round Controls):** قص حواف عناصر الواجهة بدقة (Rounded Corners) لإعطاء طابع عصري وأنثق.
-* 📊 **لوحة نتائج مدمجة (In-App Result Panel):** عرض ملخص النتيجة النهائية وسجل الأداء داخل نفس الواجهة دون الحاجة لفتح نوافذ جديدة.
-* 🎵 **مؤثرات صوتية تفاعلية (Audio Integration):** إضافة موسيقى وأصوات تفاعلية لإضفاء بيئة حماسية أثناء اللعب.
-* ⚙️ **تخصيص مستويات صعوبة متنوعة:** إمكانية التحكم بنوع العمليات الحسابية (جمع، طرح، ضرب، قسمة، أو مشكل) مع تعديل مستوى الصعوبة وعدد الأسئلة.
+**Math Genius Challenge** is a complete refactoring and modernized desktop application evolved from an earlier C++ implementation. Ported to `C#` and `WinForms`, the app elevates user experience (UX) by combining simplicity, responsive controls, and fluid performance to deliver a competitive learning environment for kids and adults alike.
 
 ---
 
-## 📸 لقطات من الشاشة
+## ✨ Key Features
+
+* 🎯 **Single-Selection Logic:** Custom RadioButtons styled as standard buttons to enforce precise, single-option selection.
+* ⏱️ **Per-Question Timer:** Built-in countdown timer (in seconds) for every question to heighten competitive challenge.
+* 🎨 **Modern Rounded UI:** Custom GDI+ rendering for smooth, rounded control borders and clean dark-theme aesthetic.
+* 📊 **In-App Results Panel:** Embedded performance view displaying final scores without spawning extra window forms.
+* 🎵 **Audio Feedback:** Dynamic background sound effects and audio feedback for an immersive game loop.
+* ⚙️ **Customizable Game Modes:** Configurable arithmetic operators (Addition, Subtraction, Multiplication, Division, or Mixed) with difficulty levels and question counts.
+
+---
+
+## 📸 Screenshots
 
 <div align="center">
 
-
-<div align="center">
-
-| الواجهة الرئيسية للعبة |
+| Main Game Interface |
 | :---: |
 | <img src="MathGame.png" alt="Math Game UI" width="700"> |
 
@@ -54,22 +51,22 @@
 
 ---
 
-## 🛠️ المعمارية والهندسة (Clean Code & Architecture)
+## 🛠️ Architecture & Design
 
-تم بناء المشروع مع التركيز العالي على **نظافة الكود (Clean Code)** وتطوير معمارية مرنة قابلة للتوسع:
+Built with a strict focus on **Clean Code** principles and scalable architecture:
 
-* 🧩 **Unified Event Handling:** تجميع جميع أزرار خيارات الإجابة تحت حدث واحد (`Event Handler`) تقليلاً للتكرار وتحقيقاً لمبدأ DRY (Don't Repeat Yourself).
-* 📐 **Custom Dynamic UI Class (`ClsUlcs`):** بناء كلاس مخصص يحتوي على Functions استقبالية هجينة للتعامل مع مختلف أنواع الـ Controls (`RadioButton`, `Button`, `Panel`) للتحكم في الأشكال، الحواف، والألوان بمرونة كاملة.
+* 🧩 **Unified Event Handling:** Leveraged single event handlers across answer option controls to eliminate boilerplate code and adhere to the DRY (Don't Repeat Yourself) principle.
+* 📐 **Custom Dynamic UI Helper (`ClsUlcs`):** Created a dedicated UI class featuring generic helper functions to apply border radii, themes, and dynamic styling across `RadioButton`, `Button`, and `Panel` controls effortlessly.
 
 ---
 
-## 🚀 طريقة التشغيل (Installation & Setup)
+## 🚀 Getting Started
 
-### المتطلبات الأساسية
-* مثبت **Visual Studio 2019** أو أحدث.
-* بيئة **.NET Framework 4.8** أو أعلى.
+### Prerequisites
+* **Visual Studio 2019** or newer.
+* **.NET Framework 4.8** or higher.
 
-### خطوات التشغيل
-1. **استنسخ المستودع (Clone):**
+### Installation & Execution
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/aimanameenmohammed/MyMathGame.git](https://github.com/aimanameenmohammed/MyMathGame.git)
