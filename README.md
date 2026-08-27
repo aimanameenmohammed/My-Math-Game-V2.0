@@ -59,7 +59,17 @@ Built with a strict focus on **Clean Code** principles and scalable architecture
 * 📐 **Custom Dynamic UI Helper (`ClsUlcs`):** Created a dedicated UI class featuring generic helper functions to apply border radii, themes, and dynamic styling across `RadioButton`, `Button`, and `Panel` controls effortlessly.
 
 ---
+👨‍💻 Author
 
+Ayman Ameen Mohammed
+
+💻 C# / .NET Developer
+🧠 Software Engineering & Programming Enthusiast
+
+💻 GitHub
+💼 LinkedIn
+
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
