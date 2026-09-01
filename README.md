@@ -502,8 +502,8 @@ Although this is a relatively small desktop application, the code was organized 
 
 | | Date |
 | :--- | :--- |
-| 🚀 **Started** | April 17, 2026 |
-| ✅ **Completed** | April 20, 2026 |
+| 🚀 **Started** | April 14, 2026 |
+| ✅ **Completed** | April 17, 2026 |
 | ⏱️ **Development Period** | 3 Days |
 
 
