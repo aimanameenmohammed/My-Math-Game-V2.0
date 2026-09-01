@@ -38,6 +38,7 @@ Designed to improve mental arithmetic through timed questions, multiple difficul
 - [🎵 Sound & Music](#-sound--music)
 - [🎨 UI & User Experience](#-ui--user-experience)
 - [🏗️ Architecture & Code Design](#️-architecture--code-design)
+- [📅 Development Timeline](#-development-timeline)
 - [📁 Project Structure](#-project-structure)
 - [📸 Screenshots](#-screenshots)
 - [🚀 Getting Started](#-getting-started)
@@ -491,7 +492,22 @@ Although this is a relatively small desktop application, the code was organized 
 │  • Reusable UI Functions           │
 └────────────────────────────────────┘
 ```
+---
 
+
+
+## 📅 Development Timeline
+
+
+
+| | Date |
+| :--- | :--- |
+| 🚀 **Started** | April 17, 2026 |
+| ✅ **Completed** | April 20, 2026 |
+| ⏱️ **Development Period** | 3 Days |
+
+
+> **Note:** These dates represent the actual development period of the project, not the date it was uploaded to GitHub.
 ---
 
 ## 🧼 Clean Code Practices
